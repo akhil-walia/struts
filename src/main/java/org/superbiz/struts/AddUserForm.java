@@ -23,4 +23,9 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class AddUserForm extends ActionSupport {
 
+    public String execute()
+    {
+        return "success";
+    }
+
 }
